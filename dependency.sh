@@ -30,7 +30,7 @@ sudo apt-get install -y device-tree-compiler
 
 # install verilator
 sudo apt-get install -y autoconf
-git clone http://git.veripool.org/git/verilator
+git clone https://github.com/verilator/verilator
 cd verilator
 git checkout v4.034
 autoconf && ./configure && make -j16 && sudo make install
